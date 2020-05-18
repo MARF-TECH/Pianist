@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29503.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PianistAnalyser.Desktop", "PianistAnalyser.Desktop\PianistAnalyser.Desktop.csproj", "{576D7B99-ECC4-4657-A27E-CE41A1D6E2BE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PianistAnalyser.Domain", "PianistAnalyser.Domain\PianistAnalyser.Domain.csproj", "{082AF127-19C3-4594-BB09-C36B37926F14}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PianistAnalyser.Application", "PianistAnalyser.Application\PianistAnalyser.Application.csproj", "{968DDDEE-7974-4C19-9938-8465BB00B0DC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{E5C9E9B4-3EA8-4C30-B877-8321F1C32AC5}"
+	ProjectSection(SolutionItems) = preProject
+		0.csv = 0.csv
+		1.csv = 1.csv
+		2.csv = 2.csv
+		3.csv = 3.csv
+		4.csv = 4.csv
+		5.csv = 5.csv
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PianistAnalyser.Tests", "PianistAnalyser.Tests\PianistAnalyser.Tests.csproj", "{D90558FC-B575-43AC-8352-5F96605FA0E2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{576D7B99-ECC4-4657-A27E-CE41A1D6E2BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{576D7B99-ECC4-4657-A27E-CE41A1D6E2BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{576D7B99-ECC4-4657-A27E-CE41A1D6E2BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{576D7B99-ECC4-4657-A27E-CE41A1D6E2BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{082AF127-19C3-4594-BB09-C36B37926F14}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{082AF127-19C3-4594-BB09-C36B37926F14}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{082AF127-19C3-4594-BB09-C36B37926F14}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{082AF127-19C3-4594-BB09-C36B37926F14}.Release|Any CPU.Build.0 = Release|Any CPU
+		{968DDDEE-7974-4C19-9938-8465BB00B0DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{968DDDEE-7974-4C19-9938-8465BB00B0DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{968DDDEE-7974-4C19-9938-8465BB00B0DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{968DDDEE-7974-4C19-9938-8465BB00B0DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D90558FC-B575-43AC-8352-5F96605FA0E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D90558FC-B575-43AC-8352-5F96605FA0E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D90558FC-B575-43AC-8352-5F96605FA0E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D90558FC-B575-43AC-8352-5F96605FA0E2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CD3F993F-F13A-451E-A5F8-87FDC46955AE}
+	EndGlobalSection
+EndGlobal

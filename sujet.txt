@@ -1,0 +1,46 @@
+Le Pianiste
+ 
+Disclaimer : ce sujet a été écrit par quelqu'un qui n'y connait rien en musique. Tout ce qu'il sait, c'est que les éléments évoqués ici sont COMPLÈTEMENT FAUX d'un point de vue réaliste. Il s'en excuse d'ailleurs auprès des puristes...
+ 
+ 
+Un pianiste a besoin d'aide pour analyser ses partitions. Vous êtes chargé de fournir un programme qui à partir d'une partition et quelques règles pourra répertorier le contenu et détecter les éventuelles erreurs de composition.
+ 
+Les partitions sont écrites dans un fichier CSV, chaque ligne comportant toutes les notes d'une mesure (écrites au format anglo-saxon, de A à G)
+ 
+Ex de partition:
+A;C;G
+;
+F;G;B
+E
+;
+G;A
+ 
+Les notes sont toujours écrites de la plus basse à la plus haute (une ligne affichant G;A signifie donc dans ce cas que la note A est la plus haute)
+Une ligne vide ou comportant uniquement un ; représente un silence : aucune note n'est jouée.
+Lorsque très exactement 3 notes sont jouées sur une même mesure, on peut parler d'accord si :
+- la première et la deuxième note se suivent
+- la deuxième et la troisième note ont une différence de deux notes
+Exemples : 
+- A B D est un accord de A
+- G A C est un accord de G
+- A C G n'est pas un accord
+ 
+Une partition est considérée comme harmonieuse si elle respecte les règles suivantes :
+            - un accord ne peut être suivi d'un silence
+            - un silence doit être suivi d'un accord
+            - la dernière mesure de la partition doit comporter une ou plusieurs notes, sans accord
+            - si deux accords se suivent, ils doivent être au maximum espacés d'une note en hauteur
+                        Exemples :
+                                    - un accord de B peut être suivi par un accord de A, B ou C
+                                    - un accord de G peut être suivi par un accord de F, G ou A
+ 
+ 
+Maintenant, le travail à faire !
+Réalisez un programme qui, à partir d'un fichier de partition comme décrit précédemment, affiche :
+- le contenu détaillé de la partition (nombre de silences, de mesures sans accord et de mesures avec accord)
+- les différentes erreurs d'harmonies détectées (de la manière la plus explicite possible)
+ 
+Vous êtes libre quant au choix de la technologie et de l'ergonomie de votre application.
+Nous examinerons le fonctionnement, la qualité de code et le respect des bonnes pratiques (quelles qu'elles soient !)
+ 
+Bonne chance :)
